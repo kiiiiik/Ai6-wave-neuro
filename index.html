@@ -101,13 +101,13 @@
 
         <div class="row" style="margin-top:4px">
             <label>Taille min (px)</label>
-            <input type="range" id="sizeMin" min="0.5" max="6" step="0.5" value="3.5">
-            <span class="val" id="sizeMin-val">3.5</span>
+            <input type="range" id="sizeMin" min="0.5" max="6" step="0.5" value="6">
+            <span class="val" id="sizeMin-val">6</span>
         </div>
         <div class="row">
             <label>Taille max (px)</label>
-            <input type="range" id="sizeMax" min="1" max="12" step="0.5" value="4.5">
-            <span class="val" id="sizeMax-val">4.5</span>
+            <input type="range" id="sizeMax" min="1" max="12" step="0.5" value="3">
+            <span class="val" id="sizeMax-val">3</span>
         </div>
         <div class="row">
             <label>Base scale</label>
@@ -142,13 +142,13 @@
         </div>
         <div class="row">
             <label>Inclinaison X (°)</label>
-            <input type="range" id="tiltX" min="-60" max="60" step="1" value="0">
-            <span class="val" id="tiltX-val">0</span>
+            <input type="range" id="tiltX" min="-60" max="60" step="1" value="1">
+            <span class="val" id="tiltX-val">1</span>
         </div>
         <div class="row">
             <label>Rotation Y (°)</label>
-            <input type="range" id="tiltY" min="-60" max="60" step="1" value="-7">
-            <span class="val" id="tiltY-val">-7</span>
+            <input type="range" id="tiltY" min="-60" max="60" step="1" value="-4">
+            <span class="val" id="tiltY-val">-4</span>
         </div>
         <div class="row">
             <label>Hauteur caméra</label>
@@ -159,8 +159,8 @@
         <div class="section-title">Vagues</div>
         <div class="row">
             <label>Amplitude</label>
-            <input type="range" id="amp" min="0.1" max="3.0" step="0.05" value="0.3">
-            <span class="val" id="amp-val">0.30</span>
+            <input type="range" id="amp" min="0.1" max="3.0" step="0.05" value="0.35">
+            <span class="val" id="amp-val">0.35</span>
         </div>
         <div class="row">
             <label>Vitesse</label>
@@ -193,8 +193,8 @@
         <div class="section-title">Profondeur de champ</div>
         <div class="row">
             <label>Intensité (aperture)</label>
-            <input type="range" id="aperture" min="0" max="0.25" step="0.005" value="0.06">
-            <span class="val" id="aperture-val">0.06</span>
+            <input type="range" id="aperture" min="0" max="0.25" step="0.005" value="0.04">
+            <span class="val" id="aperture-val">0.04</span>
         </div>
 
     </div>
@@ -208,11 +208,11 @@
         cols: 400, rows: 90,
         spacingX: 0.6, spacingZ: 0.6,
         spacing: 0.45,
-        ptBase: 150, sizeMin: 3.5, sizeMax: 4.5,
+        ptBase: 150, sizeMin: 6, sizeMax: 3,
         colorA: '#1a55cc', colorB: '#89b4f5', bgColor: '#F2F3FF',
-        planY: 0, planZ: 3, tiltX: 0, tiltY: -7, camH: 8,
-        amp: 0.3, speed: 0.22, freq: 1.0, turb: 7,
-        aperture: 0.06,
+        planY: 0, planZ: 3, tiltX: 1, tiltY: -4, camH: 8,
+        amp: 0.35, speed: 0.22, freq: 1.0, turb: 7,
+        aperture: 0.04,
         hoverStrength: 0.2, hoverRadius: 0.22,
     };
 
